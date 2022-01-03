@@ -1,0 +1,577 @@
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit
+}
+
+::placeholder {
+  text-transform: none;
+}
+
+@-ms-viewport {
+	width: device-width
+}
+
+body {
+	margin: 0;
+	font-family: "proxima-nova", sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.35;
+	color: #292b2c;
+	background-color: #fff;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: .5rem
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem
+}
+
+
+ul {
+	margin-top: 0;
+	margin-bottom: 1rem
+}
+
+
+ul ul {
+	margin-bottom: 0
+}
+
+b,
+strong {
+	font-weight: bolder
+}
+
+a {
+	color: #0275d8;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects
+}
+
+a:hover {
+	color: #014c8c;
+	text-decoration: underline
+}
+
+a:not([href]):not([tabindex]) {
+	color: inherit;
+	text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+	color: inherit;
+	text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus {
+	outline: 0
+}
+
+img {
+	vertical-align: middle;
+	border-style: none
+}
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+a,
+input {
+	-ms-touch-action: manipulation;
+	touch-action: manipulation
+}
+
+table {
+	border-collapse: collapse
+}
+
+input {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit
+}
+
+
+input {
+	overflow: visible
+}
+
+
+[type="submit"] {
+	-webkit-appearance: button
+}
+
+
+[type="submit"]::-moz-focus-inner {
+	padding: 0;
+	border-style: none
+}
+
+
+.container {
+	max-width: 960px
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+	line-height: 0;
+	font-size: 0;
+	height: 0;
+	height: .0000001px
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.clearfix::after {
+	display: block
+}
+
+.text-center {
+	text-align: center
+}
+
+.bg-feature {
+	background: #3667f6;
+	color: #fff
+}
+
+h1,
+p {
+	font-weight: 500
+}
+
+h1 {
+	color: #4c4c4c
+}
+
+p {
+	line-height: 1.5;
+	color: #6d6d6d
+}
+
+.bg-feature h1,
+.bg-feature p {
+	color: #fff;
+	font-weight: 300
+}
+
+@media(min-width:576px) {
+	.container {
+		padding-right: 40px;
+		padding-left: 40px;
+		padding-top: 60px;
+		padding-bottom: 60px
+	}
+	.bg-feature h1 {
+		font-size: 32px;
+		font-size: 2rem
+	}
+	.bg-feature p {
+		font-size: 20px;
+		font-size: 1.25rem
+	}
+}
+
+.bg-feature a {
+	color: #fff
+}
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: "proxima-nova", sans-serif;
+}
+
+.container {
+max-width: 1142px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.bg-feature {
+  color: white;
+  letter-spacing: 0.025em;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 1px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(9, 9, 220, 0.45), rgba(9, 9, 220, 0) 45%, rgba(9, 9, 220, 0) 80%, rgba(9, 9, 220, 0.25)), linear-gradient(0.3turn, rgb(0, 89, 179), rgb(0, 128, 255) 30%, rgb(85, 0, 255));
+}
+#top_content {
+  padding-bottom: 170px;
+}
+.bg-feature h1 {
+  font-weight: 700;
+}
+.bg-feature p {
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .bg-feature h1 {
+    font-size: 45px;
+    font-size: 2.81rem;
+  }
+}
+.bg-feature form {
+  text-align: center;
+  padding: 20px 0 30px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  max-width: 100%;
+}
+.bg-feature .submit_btn {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: -6px;
+  width: 25px;
+  font-size: 1.2em;
+  padding: 15px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-sizing: content-box;
+  text-align: center;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  background-image: url(../img/search2.svg);
+}
+.bg-feature .submit_btn_disabled {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: -6px;
+  width: 25px;
+  font-size: 1.2em;
+  padding: 15px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-sizing: content-box;
+  text-align: center;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #6E94ED;
+  outline: 0;
+  border: none;
+  background-image: url(../img/search3.svg);
+}
+.bg-feature #vin_input {
+  display: inline-block;
+  margin: 0;
+  border: none;
+  width: 580px;
+  max-width: calc(100% - 55.5px);
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-sizing: border-box;
+  /*   background-color: #6E94ED;*/
+  background-color: #fff;
+  text-align: left;
+  outline: 0;
+  font-size: 1.2em;
+  font-size: 1.2em;
+  padding: 15px;
+}
+.bg-feature input {
+  /*	color: #fff; caret-color: #fff;*/
+  color: #333;
+  caret-color: #333;
+}
+.bg-feature input:disabled {
+  -moz-box-shadow: 0 0 0 50px #6E94ED inset;
+  /* Change the color to your own background color */
+  -moz-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 50px #6E94ED inset;
+  /* Change the color to your own background color */
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: 0 0 0 50px #6E94ED inset;
+  /* Change the color to your own background color */
+  -webkit-text-fill-color: #fff !important;
+  opacity: 1 !important;
+}
+.bg-feature input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  /*   color: #fff;*/
+  color: #afb1b3;
+  opacity: 1;
+  /* Firefox */
+}
+.bg-feature input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  /*   color: #fff;*/
+  color: #afb1b3;
+}
+.bg-feature input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  /*   color: #fff;*/
+  color: #afb1b3;
+}
+.bg-feature form:focus-within .submit_btn {
+  background-color: #fff;
+  /*	background-image: url(search2.svg) !important;*/
+}
+.bg-feature form:focus-within #vin_input {
+  background-color: #fff;
+}
+.bg-feature form:focus-within input {
+  color: #333;
+  caret-color: #333;
+}
+.bg-feature form:focus-within input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #333;
+  opacity: 1;
+  /* Firefox */
+}
+.bg-feature form:focus-within input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #333;
+}
+.bg-feature form:focus-within input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #333;
+}
+.bg-feature input:-moz-autofill {
+  background-color: #fff !important;
+  box-shadow: 0 0 0 50px #fff inset;
+  ;
+  -moz-box-shadow: 0 0 0 50px #fff inset;
+  -moz-text-fill-color: #333 !important;
+}
+.bg-feature input:-webkit-autofill {
+  background-color: #fff !important;
+  box-shadow: 0 0 0 50px #fff inset;
+  ;
+  -webkit-box-shadow: 0 0 0 50px #fff inset;
+  -webkit-text-fill-color: #333 !important;
+}
+.bg-feature input:autofill {
+  background-color: #fff !important;
+  box-shadow: 0 0 0 50px #fff inset;
+  -webkit-text-fill-color: #333 !important;
+}
+.bg-feature form:focus-within input:-moz-autofill {
+  box-shadow: 0 0 0 50px #fff inset;
+  -webkit-box-shadow: 0 0 0 50px #fff inset;
+  -webkit-text-fill-color: #333 !important;
+}
+.bg-feature form:focus-within input:-webkit-autofill {
+  box-shadow: 0 0 0 50px #fff inset;
+  -webkit-box-shadow: 0 0 0 50px #fff inset;
+  -webkit-text-fill-color: #333 !important;
+}
+.bg-feature form:focus-within input:autofill {
+  box-shadow: 0 0 0 50px #fff inset;
+  -webkit-box-shadow: 0 0 0 50px #fff inset;
+  -webkit-text-fill-color: #333 !important;
+}
+.vin-report {
+  padding: 0 20px;
+}
+.vin-report .panel {
+  max-width: 100%;
+  width: 1000px;
+  margin: 20px auto 0;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.spacer {
+  width: 100%;
+  min-height: 150px;
+}
+.vin-report .panel-heading {
+  background-color: #3667f6;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: .025em;
+  height: auto;
+  line-height: 38px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-align: center;
+  position: relative;
+}
+.main-decoded .panel-heading {
+  width: 100%;
+}
+.vin-report .table {
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+}
+.vin-report .panel>.table:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.vin-report .table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.table>tbody>tr>td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.table>tbody>tr>td:first-child {
+  width: 40%;
+}
+.table>tbody>tr>td:last-child {
+  width: 60%;
+}
+.bg-feature h1,
+.bg-feature p {
+  color: #292b2c;
+}
+b {
+  font-size: 17px;
+  color: #333;
+  font-weight: 600;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+td {
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  line-height: 2.0;
+  padding: 7px 12px 7px 12px;
+  border: 1px solid #e3e3e3;
+  vertical-align: top;
+}
+.report-value {
+  font-weight: 700;
+  color: #333;
+}
+.panel-heading .report-value {
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+}
+.panel-heading #vehicle_logo {
+  height: 120px;
+  margin-top: -40px;
+}
+.main-decoded {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 auto 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.sample_vin {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .sample_vin {
+    right: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .tableinfo td {
+    display: block;
+    border-bottom: none;
+  }
+  .tableinfo {
+    border-bottom: 1px solid #e3e3e3;
+  }
+  #vehicle_logo {
+    display: none !important;
+  }
+  .main-decoded {
+    font-size: 20px !important;
+  }
+  .main-decoded .panel-heading {
+    float: none;
+    width: auto;
+  }
+}
+
+li.checks {
+  display: inline-block;
+  float: none;
+  margin: 5px 17px 0;
+  height: 24px;
+  list-style: none;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFF;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
